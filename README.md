@@ -17,11 +17,16 @@ The Docker image for this project is built and pushed to the GitHub Container Re
 1. **Pull the Docker Image**
 
    ```bash
-   docker pull ghcr.io/mohammadranjbarz/nodejs-github-actions :latest
+   docker pull ghcr.io/mohammadranjbarz/nodejs-github-actions :main
 
 
 2. **Run the Docker Container**
 
    ```bash
-   docker run -d -p 3000:3000 ghcr.io/mohammadranjbarz/nodejs-github-actions:latest
+   docker run -d -p 3000:3000 ghcr.io/mohammadranjbarz/nodejs-github-actions:main
    ```
+
+3. **Browse application**
+
+   Open your browser and navigate to `http://localhost:3000` to see the application running.
+

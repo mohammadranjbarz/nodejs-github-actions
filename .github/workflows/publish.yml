@@ -11,10 +11,8 @@ on:
       - 'ci-*'  # Trigger on branches that start with 'ci-'
 
 jobs:
-  build:
-
+  build-and-publish:
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
       packages: write
