@@ -17,8 +17,8 @@ The Docker image for this project is built and pushed to the GitHub Container Re
 1. **Pull the Docker Image**
 
    ```bash
-   docker pull ghcr.io/mohammadranjbarz/nodejs-github-actions :main
-
+   docker pull ghcr.io/mohammadranjbarz/nodejs-github-actions:main
+   ‍‍‍```
 
 2. **Run the Docker Container**
 
