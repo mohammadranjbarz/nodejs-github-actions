@@ -23,7 +23,7 @@ The Docker image for this project is built and pushed to the GitHub Container Re
 2. **Run the Docker Container**
 
    ```bash
-   docker run -d -p 3000:3000 ghcr.io/mohammadranjbarz/nodejs-github-actions:main
+   docker run -p 3001:3000 ghcr.io/mohammadranjbarz/nodejs-github-actions:main
    ```
 
 3. **Browse application**
